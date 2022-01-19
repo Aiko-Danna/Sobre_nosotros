@@ -1,0 +1,49 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #883b3be7;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 15px;
+}
+
+a:link{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+body{
+    margin: 0px;
+    background-color: #fdf9ea;
+}
+
+.redes{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: flex-end;
+    justify-content:space-around;
+}
+
+.red:hover{
+    transform: scale(1.3);
+}
+
+.texto{
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    right: 180px;
+    font-size: 20px;
+    color: #000000;
+    font-family: futura;
+}
